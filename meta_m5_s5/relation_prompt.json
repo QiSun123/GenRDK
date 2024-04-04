@@ -1,0 +1,42 @@
+{
+  "composer": [
+    "composer",
+    "author",
+    "director",
+    "screenwriter",
+    "performer",
+    "lyrics by"
+  ],
+  "screenwriter": [
+    "screenwriter",
+    "director",
+    "cast member",
+    "producer",
+    "author",
+    "composer"
+  ],
+  "languages spoken, written or signed": [
+    "languages spoken, written or signed",
+    "official language",
+    "educated at",
+    "original language of work",
+    "country of citizenship",
+    "ethnic group"
+  ],
+  "sibling": [
+    "sibling",
+    "father",
+    "mother",
+    "child",
+    "spouse",
+    "sister city"
+  ],
+  "member of sports team": [
+    "member of sports team",
+    "position held",
+    "member of",
+    "employer",
+    "educated at",
+    "spouse"
+  ]
+}

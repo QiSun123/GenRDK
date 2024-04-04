@@ -1,0 +1,935 @@
+[
+  {
+    "title": "Melodious Dream id_0",
+    "sents": [
+      [
+        "Melodious",
+        "Dream",
+        "is",
+        "an",
+        "award",
+        "-",
+        "winning",
+        "song",
+        "composed",
+        "by",
+        "the",
+        "talented",
+        "composer",
+        "Amanda",
+        "Jenkins",
+        ",",
+        "with",
+        "heartfelt",
+        "lyrics",
+        "by",
+        "renowned",
+        "writer",
+        "Robert",
+        "Smith",
+        "."
+      ],
+      [
+        "The",
+        "song",
+        "captivated",
+        "audiences",
+        "around",
+        "the",
+        "world",
+        "with",
+        "its",
+        "enchanting",
+        "melody",
+        "and",
+        "heartwarming",
+        "message",
+        "."
+      ],
+      [
+        "The",
+        "melody",
+        "was",
+        "beautifully",
+        "performed",
+        "by",
+        "the",
+        "talented",
+        "singer",
+        "Sarah",
+        "Davis",
+        ",",
+        "whose",
+        "voice",
+        "brought",
+        "out",
+        "the",
+        "emotion",
+        "and",
+        "depth",
+        "of",
+        "the",
+        "lyrics",
+        "."
+      ],
+      [
+        "This",
+        "iconic",
+        "piece",
+        "has",
+        "been",
+        "featured",
+        "in",
+        "several",
+        "popular",
+        "films",
+        "and",
+        "TV",
+        "series",
+        ",",
+        "garnering",
+        "praise",
+        "for",
+        "its",
+        "hauntingly",
+        "beautiful",
+        "composition",
+        "."
+      ],
+      [
+        "It",
+        "was",
+        "later",
+        "adapted",
+        "into",
+        "a",
+        "musical",
+        "by",
+        "acclaimed",
+        "director",
+        "Michael",
+        "Thompson",
+        ",",
+        "who",
+        "brought",
+        "the",
+        "enchanting",
+        "story",
+        "to",
+        "life",
+        "on",
+        "stage",
+        "."
+      ],
+      [
+        "Melodious",
+        "Dream",
+        "remains",
+        "a",
+        "beloved",
+        "piece",
+        "of",
+        "music",
+        "that",
+        "continues",
+        "to",
+        "touch",
+        "the",
+        "hearts",
+        "of",
+        "listeners",
+        "with",
+        "its",
+        "timeless",
+        "beauty",
+        "."
+      ]
+    ],
+    "vertexSet": [
+      [
+        {
+          "name": "Melodious Dream",
+          "sent_id": 0,
+          "type": "MISC",
+          "pos": [
+            0,
+            2
+          ]
+        },
+        {
+          "name": "Melodious Dream",
+          "sent_id": 5,
+          "type": "MISC",
+          "pos": [
+            0,
+            2
+          ]
+        }
+      ],
+      [
+        {
+          "name": "Amanda Jenkins",
+          "sent_id": 0,
+          "type": "PER",
+          "pos": [
+            13,
+            15
+          ]
+        }
+      ],
+      [
+        {
+          "name": "Robert Smith",
+          "sent_id": 0,
+          "type": "PER",
+          "pos": [
+            22,
+            24
+          ]
+        }
+      ],
+      [
+        {
+          "name": "Sarah Davis",
+          "sent_id": 2,
+          "type": "PER",
+          "pos": [
+            9,
+            11
+          ]
+        }
+      ],
+      [
+        {
+          "name": "Michael Thompson",
+          "sent_id": 4,
+          "type": "PER",
+          "pos": [
+            10,
+            12
+          ]
+        }
+      ]
+    ],
+    "labels": [
+      {
+        "r": "P86",
+        "h": 1,
+        "t": 0,
+        "evidence": [],
+        "reasoning": "Amanda Jenkins composed the song Melodious Dream."
+      },
+      {
+        "r": "P676",
+        "h": 2,
+        "t": 0,
+        "evidence": [],
+        "reasoning": "Robert Smith wrote the lyrics for the song Melodious Dream."
+      },
+      {
+        "r": "P175",
+        "h": 3,
+        "t": 0,
+        "evidence": [],
+        "reasoning": "Sarah Davis performed the song Melodious Dream."
+      },
+      {
+        "r": "P57",
+        "h": 4,
+        "t": 0,
+        "evidence": [],
+        "reasoning": "Michael Thompson directed the adaptation of the song Melodious Dream into a musical."
+      },
+      {
+        "h": 0,
+        "t": 1,
+        "r": "P800",
+        "evidence": [],
+        "reasoning": "Amanda Jenkins composed the song Melodious Dream."
+      },
+      {
+        "h": 0,
+        "t": 2,
+        "r": "P800",
+        "evidence": [],
+        "reasoning": "Robert Smith wrote the lyrics for the song Melodious Dream."
+      },
+      {
+        "h": 0,
+        "t": 3,
+        "r": "P800",
+        "evidence": [],
+        "reasoning": "Sarah Davis performed the song Melodious Dream."
+      },
+      {
+        "h": 0,
+        "t": 4,
+        "r": "P800",
+        "evidence": [],
+        "reasoning": "Michael Thompson directed the adaptation of the song Melodious Dream into a musical."
+      }
+    ],
+    "tag": "composer"
+  },
+  {
+    "title": "Fictional opera singer Maria Santini id_1",
+    "sents": [
+      [
+        "Maria",
+        "Santini",
+        ",",
+        "a",
+        "renowned",
+        "opera",
+        "singer",
+        ",",
+        "is",
+        "known",
+        "for",
+        "her",
+        "powerful",
+        "and",
+        "captivating",
+        "performances",
+        "in",
+        "multiple",
+        "languages",
+        "."
+      ],
+      [
+        "Born",
+        "in",
+        "Italy",
+        ",",
+        "she",
+        "is",
+        "of",
+        "Italian",
+        "descent",
+        "and",
+        "began",
+        "her",
+        "musical",
+        "education",
+        "at",
+        "the",
+        "prestigious",
+        "Milan",
+        "Conservatory",
+        "of",
+        "Music",
+        "."
+      ],
+      [
+        "Maria",
+        "is",
+        "fluent",
+        "in",
+        "several",
+        "languages",
+        "including",
+        "Italian",
+        ",",
+        "French",
+        ",",
+        "German",
+        ",",
+        "and",
+        "English",
+        ",",
+        "enabling",
+        "her",
+        "to",
+        "perform",
+        "a",
+        "wide",
+        "range",
+        "of",
+        "operatic",
+        "pieces",
+        "in",
+        "their",
+        "original",
+        "languages",
+        "."
+      ],
+      [
+        "With",
+        "her",
+        "exceptional",
+        "talent",
+        ",",
+        "Maria",
+        "has",
+        "enchanted",
+        "audiences",
+        "around",
+        "the",
+        "world",
+        "with",
+        "her",
+        "melodic",
+        "voice",
+        "and",
+        "emotional",
+        "depth",
+        "."
+      ],
+      [
+        "She",
+        "is",
+        "a",
+        "citizen",
+        "of",
+        "Italy",
+        "and",
+        "often",
+        "sings",
+        "in",
+        "her",
+        "native",
+        "language",
+        "as",
+        "well",
+        "as",
+        "other",
+        "languages",
+        "to",
+        "connect",
+        "with",
+        "diverse",
+        "audiences",
+        "."
+      ],
+      [
+        "Throughout",
+        "her",
+        "career",
+        ",",
+        "Maria",
+        "Santini",
+        "has",
+        "been",
+        "praised",
+        "for",
+        "her",
+        "ability",
+        "to",
+        "convey",
+        "the",
+        "emotional",
+        "nuances",
+        "of",
+        "the",
+        "original",
+        "language",
+        "of",
+        "the",
+        "works",
+        "she",
+        "performs",
+        ",",
+        "making",
+        "her",
+        "a",
+        "highly",
+        "respected",
+        "figure",
+        "in",
+        "the",
+        "opera",
+        "world",
+        "."
+      ]
+    ],
+    "vertexSet": [
+      [
+        {
+          "name": "Maria Santini",
+          "sent_id": 0,
+          "type": "PER",
+          "pos": [
+            0,
+            2
+          ]
+        },
+        {
+          "name": "Maria Santini",
+          "sent_id": 5,
+          "type": "PER",
+          "pos": [
+            4,
+            6
+          ]
+        }
+      ],
+      [
+        {
+          "name": "Italy",
+          "sent_id": 1,
+          "type": "LOC",
+          "pos": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Italy",
+          "sent_id": 4,
+          "type": "LOC",
+          "pos": [
+            5,
+            6
+          ]
+        }
+      ],
+      [
+        {
+          "name": "Milan Conservatory of Music",
+          "sent_id": 1,
+          "type": "ORG",
+          "pos": [
+            17,
+            21
+          ]
+        }
+      ],
+      [
+        {
+          "name": "Italian",
+          "sent_id": 1,
+          "type": "MISC",
+          "pos": [
+            7,
+            8
+          ]
+        },
+        {
+          "name": "Italian",
+          "sent_id": 2,
+          "type": "MISC",
+          "pos": [
+            7,
+            8
+          ]
+        }
+      ],
+      [
+        {
+          "name": "French",
+          "sent_id": 2,
+          "type": "MISC",
+          "pos": [
+            9,
+            10
+          ]
+        }
+      ],
+      [
+        {
+          "name": "German",
+          "sent_id": 2,
+          "type": "MISC",
+          "pos": [
+            11,
+            12
+          ]
+        }
+      ],
+      [
+        {
+          "name": "English",
+          "sent_id": 2,
+          "type": "MISC",
+          "pos": [
+            14,
+            15
+          ]
+        }
+      ]
+    ],
+    "labels": [
+      {
+        "r": "P27",
+        "h": 0,
+        "t": 1,
+        "evidence": [],
+        "reasoning": "Maria Santini is a citizen of Italy, as she was born in Italy and holds Italian citizenship."
+      },
+      {
+        "r": "P69",
+        "h": 0,
+        "t": 2,
+        "evidence": [],
+        "reasoning": "Maria Santini received her musical education at the Milan Conservatory of Music, highlighting her training and background in music."
+      },
+      {
+        "r": "P1412",
+        "h": 0,
+        "t": 3,
+        "evidence": [],
+        "reasoning": "Italian is one of the languages spoken, written, or signed by Maria Santini, indicating her proficiency in her native language."
+      },
+      {
+        "r": "P1412",
+        "h": 0,
+        "t": 4,
+        "evidence": [],
+        "reasoning": "French is another language spoken, written, or signed by Maria Santini, showcasing her multilingual abilities."
+      },
+      {
+        "r": "P1412",
+        "h": 0,
+        "t": 5,
+        "evidence": [],
+        "reasoning": "German is also a language spoken, written, or signed by Maria Santini, demonstrating her linguistic versatility."
+      },
+      {
+        "r": "P1412",
+        "h": 0,
+        "t": 6,
+        "evidence": [],
+        "reasoning": "English is yet another language spoken, written, or signed by Maria Santini, highlighting her ability to communicate in multiple languages for her performances and interactions."
+      }
+    ],
+    "tag": "languages spoken, written or signed"
+  },
+  {
+    "title": "Fictional Celebrity Biography id_2",
+    "sents": [
+      [
+        "Alice",
+        "Smith",
+        ",",
+        "a",
+        "celebrated",
+        "actress",
+        "and",
+        "singer",
+        ",",
+        "was",
+        "born",
+        "in",
+        "New",
+        "York",
+        "City",
+        "to",
+        "renowned",
+        "film",
+        "director",
+        "James",
+        "Smith",
+        "and",
+        "fashion",
+        "designer",
+        "Sandra",
+        "Smith",
+        "."
+      ],
+      [
+        "She",
+        "is",
+        "the",
+        "younger",
+        "sister",
+        "of",
+        "Oliver",
+        "Smith",
+        ",",
+        "a",
+        "talented",
+        "musician",
+        "known",
+        "for",
+        "his",
+        "innovative",
+        "music",
+        "compositions",
+        "."
+      ],
+      [
+        "Growing",
+        "up",
+        "in",
+        "a",
+        "creative",
+        "household",
+        ",",
+        "Alice",
+        "and",
+        "Oliver",
+        "often",
+        "collaborated",
+        "on",
+        "projects",
+        "that",
+        "showcased",
+        "their",
+        "artistic",
+        "talents",
+        "."
+      ],
+      [
+        "In",
+        "2005",
+        ",",
+        "Alice",
+        "married",
+        "her",
+        "longtime",
+        "partner",
+        ",",
+        "Thomas",
+        "Johnson",
+        ",",
+        "a",
+        "successful",
+        "entrepreneur",
+        "in",
+        "Silicon",
+        "Valley",
+        "."
+      ],
+      [
+        "The",
+        "couple",
+        "'",
+        "s",
+        "lavish",
+        "wedding",
+        "was",
+        "attended",
+        "by",
+        "many",
+        "celebrities",
+        "and",
+        "featured",
+        "performances",
+        "by",
+        "both",
+        "Alice",
+        "and",
+        "Oliver",
+        "."
+      ],
+      [
+        "Throughout",
+        "her",
+        "career",
+        ",",
+        "Alice",
+        "has",
+        "won",
+        "numerous",
+        "awards",
+        "for",
+        "her",
+        "outstanding",
+        "performances",
+        "in",
+        "film",
+        "and",
+        "music",
+        ",",
+        "solidifying",
+        "her",
+        "status",
+        "as",
+        "a",
+        "multi",
+        "-",
+        "talented",
+        "entertainer",
+        "."
+      ],
+      [
+        "In",
+        "2019",
+        ",",
+        "the",
+        "city",
+        "of",
+        "New",
+        "York",
+        "and",
+        "Paris",
+        "became",
+        "sister",
+        "cities",
+        ",",
+        "with",
+        "a",
+        "special",
+        "event",
+        "hosted",
+        "by",
+        "Alice",
+        "and",
+        "Thomas",
+        "to",
+        "celebrate",
+        "the",
+        "cultural",
+        "exchange",
+        "between",
+        "the",
+        "two",
+        "iconic",
+        "cities",
+        "."
+      ]
+    ],
+    "vertexSet": [
+      [
+        {
+          "name": "Alice Smith",
+          "sent_id": 0,
+          "type": "PER",
+          "pos": [
+            0,
+            2
+          ]
+        }
+      ],
+      [
+        {
+          "name": "New York City",
+          "sent_id": 0,
+          "type": "LOC",
+          "pos": [
+            12,
+            15
+          ]
+        }
+      ],
+      [
+        {
+          "name": "James Smith",
+          "sent_id": 0,
+          "type": "PER",
+          "pos": [
+            19,
+            21
+          ]
+        }
+      ],
+      [
+        {
+          "name": "Sandra Smith",
+          "sent_id": 0,
+          "type": "PER",
+          "pos": [
+            24,
+            26
+          ]
+        }
+      ],
+      [
+        {
+          "name": "Oliver Smith",
+          "sent_id": 1,
+          "type": "PER",
+          "pos": [
+            6,
+            8
+          ]
+        }
+      ],
+      [
+        {
+          "name": "Thomas Johnson",
+          "sent_id": 3,
+          "type": "PER",
+          "pos": [
+            9,
+            11
+          ]
+        }
+      ],
+      [
+        {
+          "name": "Paris",
+          "sent_id": 6,
+          "type": "LOC",
+          "pos": [
+            9,
+            10
+          ]
+        }
+      ]
+    ],
+    "labels": [
+      {
+        "r": "P22",
+        "h": 0,
+        "t": 2,
+        "evidence": [],
+        "reasoning": "Alice Smith is related to James Smith as her father based on the information that James Smith is mentioned as a renowned film director and Alice Smith is described as a celebrated actress and singer, indicating a familial connection between the two individuals."
+      },
+      {
+        "r": "P25",
+        "h": 0,
+        "t": 3,
+        "evidence": [],
+        "reasoning": "Alice Smith is linked to Sandra Smith as her mother because Sandra Smith is mentioned as a fashion designer, and Alice Smith is described as a talented actress and singer, suggesting a maternal relationship between them."
+      },
+      {
+        "r": "P3373",
+        "h": 0,
+        "t": 4,
+        "evidence": [],
+        "reasoning": "Alice Smith is connected to Oliver Smith as siblings based on the information that Oliver Smith is described as a talented musician and Alice Smith is mentioned as a celebrated actress and singer, indicating that they share a sibling relationship."
+      },
+      {
+        "r": "P26",
+        "h": 0,
+        "t": 5,
+        "evidence": [],
+        "reasoning": "Alice Smith is associated with Thomas Johnson as her spouse because Thomas Johnson is described as a successful entrepreneur in Silicon Valley, and Alice Smith is mentioned as a celebrated actress and singer who married him in 2005, indicating a marital relationship between them."
+      },
+      {
+        "r": "P190",
+        "h": 1,
+        "t": 6,
+        "evidence": [],
+        "reasoning": "New York City and Paris are linked as sister cities based on the information that in 2019, they became sister cities with a special event hosted by Alice and Thomas, indicating a formal relationship between the two iconic cities for cultural exchange and cooperation."
+      },
+      {
+        "h": 2,
+        "t": 0,
+        "r": "P40",
+        "evidence": [],
+        "reasoning": "Alice Smith is related to James Smith as her father based on the information that James Smith is mentioned as a renowned film director and Alice Smith is described as a celebrated actress and singer, indicating a familial connection between the two individuals."
+      },
+      {
+        "h": 3,
+        "t": 0,
+        "r": "P40",
+        "evidence": [],
+        "reasoning": "Alice Smith is linked to Sandra Smith as her mother because Sandra Smith is mentioned as a fashion designer, and Alice Smith is described as a talented actress and singer, suggesting a maternal relationship between them."
+      },
+      {
+        "h": 4,
+        "t": 0,
+        "r": "P3373",
+        "evidence": [],
+        "reasoning": "Alice Smith is connected to Oliver Smith as siblings based on the information that Oliver Smith is described as a talented musician and Alice Smith is mentioned as a celebrated actress and singer, indicating that they share a sibling relationship."
+      },
+      {
+        "h": 5,
+        "t": 0,
+        "r": "P26",
+        "evidence": [],
+        "reasoning": "Alice Smith is associated with Thomas Johnson as her spouse because Thomas Johnson is described as a successful entrepreneur in Silicon Valley, and Alice Smith is mentioned as a celebrated actress and singer who married him in 2005, indicating a marital relationship between them."
+      },
+      {
+        "h": 6,
+        "t": 1,
+        "r": "P190",
+        "evidence": [],
+        "reasoning": "New York City and Paris are linked as sister cities based on the information that in 2019, they became sister cities with a special event hosted by Alice and Thomas, indicating a formal relationship between the two iconic cities for cultural exchange and cooperation."
+      }
+    ],
+    "tag": "sibling"
+  }
+]

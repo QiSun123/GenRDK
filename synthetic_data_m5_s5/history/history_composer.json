@@ -1,0 +1,56 @@
+[
+  [
+    {
+      "role": "system",
+      "content": "You are an information extraction assistant."
+    },
+    {
+      "role": "user",
+      "content": "Generate one fictional wikipedia style paragraph that contains at least 6 sentences and describes one or more following relation types: \"composer\", \"author\", \"director\", \"screenwriter\", \"performer\", \"lyrics by\u201d. The content of this generated fictional wikipedia style paragraph can be the description of a famous individual, military force, melodious song, renowned club, political party, captivating book, opera, video game, film, TV serie, remarkable country, mesmerizing artwork, distinguished organization or influential company in the world. Provide them in JSON format with just following keys: title, context."
+    },
+    {
+      "role": "assistant",
+      "content": "{\n    \"title\": \"Melodious Dream\",\n    \"context\": \"Melodious Dream is an award-winning song composed by the talented composer Amanda Jenkins, with heartfelt lyrics by renowned writer Robert Smith. The song captivated audiences around the world with its enchanting melody and heartwarming message. The melody was beautifully performed by the talented singer Sarah Davis, whose voice brought out the emotion and depth of the lyrics. This iconic piece has been featured in several popular films and TV series, garnering praise for its hauntingly beautiful composition. It was later adapted into a musical by acclaimed director Michael Thompson, who brought the enchanting story to life on stage. Melodious Dream remains a beloved piece of music that continues to touch the hearts of listeners with its timeless beauty.\"\n}"
+    },
+    {
+      "role": "user",
+      "content": "Extract the entities in your above generated document. Provide them in List of JSON format with the following keys: entity, entity type. The entity type can be one of the following types: \"Organization\", \"Location\", \"Time\", \"Person\", \"Miscellaneous\", \"Number\", \"Blank\". "
+    },
+    {
+      "role": "assistant",
+      "content": "[\n    {\"entity\": \"Melodious Dream\", \"entity type\": \"Miscellaneous\"},\n    {\"entity\": \"Amanda Jenkins\", \"entity type\": \"Person\"},\n    {\"entity\": \"Robert Smith\", \"entity type\": \"Person\"},\n    {\"entity\": \"Sarah Davis\", \"entity type\": \"Person\"},\n    {\"entity\": \"Michael Thompson\", \"entity type\": \"Person\"}\n]"
+    },
+    {
+      "role": "user",
+      "content": "Present the relational triplets as (one head entity, one tail entity, one relation type), if a relationship exists between two entities. The relation type can be one or more of following relation types: \"head of government\", \" country\", \" place of birth\", \" place of death\", \" father\", \" mother\", \" spouse\", \" country of citizenship\", \" continent\", \" instance of\", \" head of state\", \" capital\", \" official language\", \" position held\", \" child\", \" author\", \" member of sports team\", \" director\", \" screenwriter\", \" educated at\", \" composer\", \" member of political party\", \" employer\", \" founded by\", \" league\", \" publisher\", \" owned by\", \" located in the administrative territorial entity\", \" operator\", \" religion\", \" contains administrative territorial entity\", \" follows\", \" followed by\", \" headquarters location\", \" cast member\", \" producer\", \" award received\", \" creator\", \" parent taxon\", \" ethnic group\", \" performer\", \" manufacturer\", \" developer\", \" series\", \" sister city\", \" legislative body\", \" basin country\", \" located in or next to body of water\", \" military branch\", \" record label\", \" production company\", \" location\", \" subclass of\", \" subsidiary\", \" part of\", \" original language of work\", \" platform\", \" mouth of the watercourse\", \" original network\", \" member of\", \" chairperson\", \" country of origin\", \" has part\", \" residence\", \" date of birth\", \" date of death\", \" inception\", \" dissolved, abolished or demolished\", \" publication date\", \" start time\", \" end time\", \" point in time\", \" conflict\", \" characters\", \" lyrics by\", \" located on terrain feature\", \" participant\", \" influenced by\", \" location of formation\", \" parent organization\", \" notable work\", \" separated from\", \" narrative location\", \" work location\", \" applies to jurisdiction\", \" product or material produced\", \" unemployment rate\", \" territory claimed by\", \" participant of\", \" replaces\", \" replaced by\", \" capital of\", \" languages spoken, written or signed\", \" present in work\", \" sibling\u201d."
+    },
+    {
+      "role": "assistant",
+      "content": "[\n    {\"head entity\": \"Amanda Jenkins\", \"tail entity\": \"Melodious Dream\", \"relation type\": \"composer\"},\n    {\"head entity\": \"Robert Smith\", \"tail entity\": \"Melodious Dream\", \"relation type\": \"lyrics by\"},\n    {\"head entity\": \"Sarah Davis\", \"tail entity\": \"Melodious Dream\", \"relation type\": \"performer\"},\n    {\"head entity\": \"Michael Thompson\", \"tail entity\": \"Melodious Dream\", \"relation type\": \"director\"}\n]"
+    },
+    {
+      "role": "user",
+      "content": "Present reasoning explannation of each relational triplet."
+    },
+    {
+      "role": "assistant",
+      "content": "1. Amanda Jenkins (head entity) composed the song Melodious Dream (tail entity). This relationship indicates that Amanda Jenkins is the composer of the song Melodious Dream.\n\n2. Robert Smith (head entity) wrote the lyrics for the song Melodious Dream (tail entity). This relationship signifies that Robert Smith is the author of the lyrics of the song Melodious Dream.\n\n3. Sarah Davis (head entity) performed the song Melodious Dream (tail entity). This relationship implies that Sarah Davis is the performer of the song Melodious Dream.\n\n4. Michael Thompson (head entity) directed the adaptation of the song Melodious Dream (tail entity) into a musical. This relationship suggests that Michael Thompson is the director of the musical adaptation of the song Melodious Dream."
+    },
+    {
+      "role": "user",
+      "content": "Present support sentence index for each extracted relational triple that shown in your generated document."
+    },
+    {
+      "role": "assistant",
+      "content": "[\n    {\"support sentence index\": 1},\n    {\"support sentence index\": 1},\n    {\"support sentence index\": 1},\n    {\"support sentence index\": 1}\n]"
+    },
+    {
+      "role": "user",
+      "content": "Organize the above triplet information in List of JSON format with the following keys: head entity, tail entity, relation type, reasoning explannation of each relational triplet, index of supporting sentence that shown in document,"
+    },
+    {
+      "role": "assistant",
+      "content": "[\n    {\n        \"head entity\": \"Amanda Jenkins\",\n        \"tail entity\": \"Melodious Dream\",\n        \"relation type\": \"composer\",\n        \"reasoning explanation\": \"Amanda Jenkins composed the song Melodious Dream.\",\n        \"index of supporting sentence\": 1\n    },\n    {\n        \"head entity\": \"Robert Smith\",\n        \"tail entity\": \"Melodious Dream\",\n        \"relation type\": \"lyrics by\",\n        \"reasoning explanation\": \"Robert Smith wrote the lyrics for the song Melodious Dream.\",\n        \"index of supporting sentence\": 1\n    },\n    {\n        \"head entity\": \"Sarah Davis\",\n        \"tail entity\": \"Melodious Dream\",\n        \"relation type\": \"performer\",\n        \"reasoning explanation\": \"Sarah Davis performed the song Melodious Dream.\",\n        \"index of supporting sentence\": 1\n    },\n    {\n        \"head entity\": \"Michael Thompson\",\n        \"tail entity\": \"Melodious Dream\",\n        \"relation type\": \"director\",\n        \"reasoning explanation\": \"Michael Thompson directed the adaptation of the song Melodious Dream into a musical.\",\n        \"index of supporting sentence\": 1\n    }\n]"
+    }
+  ]
+]
