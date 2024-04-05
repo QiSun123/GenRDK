@@ -630,12 +630,12 @@ def transfer():
     print("save path: ", unseenpath)
 
 def main():
-    num=1
-    # relation_types = json.load(open(relation_prompt))
-    # for i in range(num):
-    #     print("***********",i,"***********")
-    #     generate(relation_types)
-    # static()
+    num=500
+    relation_types = json.load(open(relation_prompt))
+    for i in range(num):
+        print("***********",i,"***********")
+        generate(relation_types)
+    static()
     print("transfering...")
     transfer()
 
