@@ -13,7 +13,7 @@ python check.py
 We present one demo in meta_m5_s5, which contains 5 different unseen relation types.
 ## Obtain synthetic data by ChatGPT
 ```
-  python CoR.py # put your ppenai api key in CoR.py
+  python CoR.py # put your openai api key in CoR.py
 ```
 ## Train the Backbone models
 We follow the [llama-recipes](https://github.com/meta-llama/llama-recipes) to fine-tune (LoRA) the downstream DocRTE model.
