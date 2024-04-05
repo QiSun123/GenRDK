@@ -15,7 +15,7 @@ We present one demo in meta_m5_s5, which contains 5 different unseen relation ty
 ```
   python CoR.py # put your openai api key in CoR.py
 ```
-## Train the Backbone models
+## Train the downstream models
 We follow the [llama-recipes](https://github.com/meta-llama/llama-recipes) to fine-tune (LoRA) the downstream DocRTE model.
 
 We follow the [UGDRE](https://github.com/QiSun123/UGDRE) to train the downstream DocRE model.
