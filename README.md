@@ -36,11 +36,19 @@ We follow the [UGDRE](https://github.com/QiSun123/UGDRE) to train the downstream
 
 ## Citation
 ```
-@article{sun2024Consistency,
-  title={Consistency Guided Knowledge Retrieval and Denoising in LLMs for Zero-shot Document-level Relation Triplet Extraction},
-  author={Qi Sun, Kun Huang, Xiaocui Yang, Rong Tong, Kun Zhang, Soujanya Poria},
-  journal={Proceedings of WWW},
-  year={2024}
+@inproceedings{10.1145/3589334.3645678,
+author = {Sun, Qi and Huang, Kun and Yang, Xiaocui and Tong, Rong and Zhang, Kun and Poria, Soujanya},
+title = {Consistency Guided Knowledge Retrieval and Denoising in LLMs for Zero-shot Document-level Relation Triplet Extraction},
+year = {2024},
+isbn = {9798400701719},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3589334.3645678},
+doi = {10.1145/3589334.3645678},
+booktitle = {Proceedings of the ACM on Web Conference 2024},
+pages = {4407–4416},
+numpages = {10},
+series = {WWW '24}
 }
 ```
 
