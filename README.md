@@ -1,5 +1,5 @@
 # GenRDK
-Code for WWW 2024 paper [Consistency Guided Knowledge Retrieval and Denoising in LLMs for Zero-shot Document-level Relation Triplet Extraction.](https://arxiv.org/abs/2401.13598)
+Code for WWW 2024 paper [Consistency Guided Knowledge Retrieval and Denoising in LLMs for Zero-shot Document-level Relation Triplet Extraction.](https://dl.acm.org/doi/10.1145/3589334.3645678)
 ## Dataset
 We perform experiments on [DocRED](https://github.com/thunlp/DocRED) and [RE-DocRED](https://github.com/tonytan48/re-docred).
 ## Settings
