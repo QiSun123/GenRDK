@@ -134,9 +134,7 @@ ToAlpaca_seen(
 )
 
 
-# ToAlpaca_seen(group,name="train_seen.json")
-# ToAlpaca_seen(group,name="dev_seen.json")
-# ToAlpaca_seen(group,name="test_seen.json")
+
 
 
 
